@@ -66,5 +66,6 @@ cout << totals[k] << endl;
 //}
 
 
+
     return 0;
 }
