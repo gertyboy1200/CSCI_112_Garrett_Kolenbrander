@@ -27,7 +27,7 @@ void printMatrix(int fullMattrix[][5]){
     for (int i = 0; i < 4; i++){
         for (int j = 0; j < 5; j++)
             cout << fullMattrix[i][j] << " ";
-        cout << endl;
+        cout << endl;f
     }
 
 }
