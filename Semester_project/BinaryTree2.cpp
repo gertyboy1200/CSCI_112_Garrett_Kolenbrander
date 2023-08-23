@@ -78,41 +78,7 @@ class BinaryNode {
 			 *      F    H  I
 			 */ 
 	/*
-	void remove(const Person &target,BinaryNode *parent=NULL) {
-		parent=this;
-		if (p==target) {
-/* Somewhat understandable version			  
-              // 2 Children
-			  if (left!=NULL && right!=NULL) {
-				left->add(right);
-				if (parent->left==this) parent->left=left;
-				if (parent->right==this) parent->right=left; 
-			  } 
-			  // 0 or 1 child
-			  else {
-				  BinaryNode *child=NULL;
-				  if (right!=NULL) child=right;
-				  if (left!=NULL) child=left;
-				  if (parent->left==this) parent->left=child;
-				  if (parent->right==this) parent->right=child; 
-			  }
-           BinaryNode *child=NULL;
-			  if (left!=NULL && right!=NULL) {
-				left->add(right);
-				child=left;
-              }
-			  else if (right!=NULL) child=right;
-		      else if (left!=NULL) child=left;
-			  if (parent->left==this) parent->left=child;
-			  if (parent->right==this) parent->right=child; 
-			  delete this;
-		}
-		if (target<p) {
-			if (left!=NULL) return left->remove(target,this);
-		} else {
-			if(right!=NULL) return right->remove(target,this);
-		}
-	}
+	
 	*/
 	void add(BinaryNode *subtree) {
 		if (subtree->p<p) { // go to the left

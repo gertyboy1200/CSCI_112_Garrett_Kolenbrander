@@ -288,6 +288,7 @@ void traverse(Node* root) {
             clearScreen();
                 cout << "As you are walking the pain in your head returns and you spot a large waterfall with a beautiful cave behind it." << endl \
                 << "Do you enter the cave (c) or drink from the waterfall (d)?" << endl;
+                cin >> choice;
                 if (choice == 'd' && curr->left != NULL) {
                     curr = curr->left;
                 }
@@ -357,6 +358,7 @@ void traverse(Node* root) {
             clearScreen();
                 cout << "You walk into the forest and as you’re walking you stumble across a large purple and green mushroom growing on the edge of the path." << endl \
                 << "Do you pick the mushroom on your right or do you continue down your path to the left?" << endl;
+                cin >> choice;
                 if (choice == 'l' && curr->left != NULL) {
                     curr = curr->left;
                 }
@@ -412,6 +414,7 @@ void traverse(Node* root) {
                 << "You hear a loud pop behind you. Whipping around to see what produced the noise you see nothing." << endl \
                 << "Turning back around to continue walking you take one step and trip. You attempt to stand back up but you foot is caught in a thin clear strand." << endl \
                 << "From the dark trees 8 dark legs creep out and and 8 eyes meet your gaze. Do you fight the beast (f) or do you attempt to communicate (c)?";
+                cin >> choice;
                 if (choice == 'c' && curr->left != NULL) {
                     curr = curr->left;
                 }
@@ -433,6 +436,7 @@ void traverse(Node* root) {
                 cout << "You pick up a stick lying next to you. You swing at the beasts legs but the stick breaks in half." << endl \
                 << "Frantically you look around. You spot a small cave opening nearby with a faint glow emanating from the depths." << endl \
                 << "Do you continue to fight with the broken stick and your hands (f) or do you attempt to enter the cave. (c)";
+                cin >> choice;
                 if (choice == 'c' && curr->left != NULL) {
                     curr = curr->left;
                 }
